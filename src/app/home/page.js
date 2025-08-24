@@ -9,6 +9,14 @@ import Loading from "../components/ui/Loading";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
 
+const eventsIMG = [
+  "/assets/events/event1.png",
+  "/assets/events/event2.png",
+  "/assets/events/event3.png",
+  "/assets/events/event4.png",
+  "/assets/events/event5.png",
+];
+
 export default function Home() {
   const router = useRouter();
   const [popular, setPopular] = useState([]);
@@ -20,6 +28,25 @@ export default function Home() {
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
 
   useEffect(() => {
+    async function showEvents() {
+      for (const url of eventsIMG) {
+        await Swal.fire({
+          imageUrl: url,
+          showConfirmButton: false,
+          showCloseButton: true,
+          allowOutsideClick: true,
+          allowEscapeKey: true,
+          backdrop: true,
+          background: "transparent",
+          customClass: {
+            popup: "swal2-no-padding",
+            closeButton: "swal2-close-light",
+          },
+        });
+      }
+    }
+    showEvents();
+    
     const fetchData = async () => {
       try {
         const response = await fetch("/API/homeContent");
