@@ -8,7 +8,7 @@ export default function InitialPage() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.push("/home");
+      window.location.href = "/home";
     }, 2000); // 2 seconds
 
     // Cleanup timer if component unmounts
