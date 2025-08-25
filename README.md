@@ -185,6 +185,23 @@ Visit `http://localhost:3000` to see your application running! 🎉
 
 <div align="center">
 
+## Home Page
+
+<img src="./SCREENSHOTS/home.png" alt="Initial Redirect" width="800"/>
+<p><em>Home Page with slider</em></p>
+
+<img src="./SCREENSHOTS/home2.png" alt="Initial Redirect" width="800"/>
+<p><em>Home Page 2nd half</em></p>
+
+<br/><br/>
+
+## All animes page
+
+<img src="./SCREENSHOTS/all-animes.png" alt="Initial Redirect" width="800"/>
+<p><em>Explore all animes here</em></p>
+
+<br/><br/>
+
 ## Category Page
 
 <img src="./SCREENSHOTS/category.png" alt="Category" width="800"/>
