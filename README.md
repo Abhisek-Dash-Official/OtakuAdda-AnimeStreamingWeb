@@ -349,7 +349,7 @@ npm run test         # Run tests
 
 ## 🙏 Acknowledgments
 
-- **Anime Database**: Thanks to various google for providing comprehensive data of animes
+- **Anime Database**: Thanks to Google and other sources for providing comprehensive anime data.
 - **Contributors**: Youtube tutorials and documentations
 
 ---
@@ -357,9 +357,6 @@ npm run test         # Run tests
 <div align="center">
 
 **🌟 Star this repository if you find it helpful!**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/otakuadda?style=social)](https://github.com/yourusername/otakuadda/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/otakuadda?style=social)](https://github.com/yourusername/otakuadda/network/members)
 
 ---
 
